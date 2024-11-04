@@ -6,7 +6,7 @@ public class Library extends Building {
 
     public Library() {
       System.out.println("You have built a library: 📖");
-      Hashtable<String, boolean> collection = new Hashtable<>();
+      //Hashtable<String, boolean> collection = new Hashtable<>();
     }
 
     public void addTitle(String title) {

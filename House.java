@@ -27,6 +27,7 @@ public class House extends Building {
       System.out.println("Cannot move out.");
       return "N/A";
     }
+  }
   
   public boolean isResident(String person) {
     if (residents.contains(person)) {
@@ -36,7 +37,7 @@ public class House extends Building {
     }
   }
 
-  } 
+   
 
   public static void main(String[] args) {
     new House();

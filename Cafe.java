@@ -18,14 +18,16 @@ public class Cafe extends Building {
         this.nCoffeeOunces = this.nCoffeeOunces-size;
         this.nSugarPackets = this.nSugarPackets-nSugarPackets;
         this.nCreams = this.nCreams - nCreams;
-        private void restock(int nCoffeeOunces, int nSugarPackets, int nCreams, int nCups) {
-            this.nCoffeeOunces = nCoffeeOunces;
-            this.nSugarPackets = nSugarPackets;
-            this.nCreams = nCreams;
-            this.nCups = nCups;
+    }
+
+    private void restock(int nCoffeeOunces, int nSugarPackets, int nCreams, int nCups) {
+        this.nCoffeeOunces = nCoffeeOunces;
+        this.nSugarPackets = nSugarPackets;
+        this.nCreams = nCreams;
+        this.nCups = nCups;
         }
 
-    }
+    
 
     public static void main(String[] args) {
         new Cafe(50, 32, 14, 4);
