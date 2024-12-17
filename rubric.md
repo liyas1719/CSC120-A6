@@ -26,7 +26,7 @@ YES 1 pt: The `Library` class includes the requested attributes
 
 YES 1 pt: The `Library` class implements the requested methods to add / remove or check out / return titles
 
-MAYBE 1 pt: The `Library` class implements the requested additional methods (`containsTitle(...)`, `isAvailable(...)`, and `printCollection()`)
+YES 1 pt: The `Library` class implements the requested additional methods (`containsTitle(...)`, `isAvailable(...)`, and `printCollection()`)
 
 ### Level 3: `Cafe.java` (3 pts)
 
@@ -40,13 +40,13 @@ YES 1 pt: The `Cafe` class uses the `restock(...)` method to avoid running out o
 
 ## General Items:
 
-MAYBE 4 pts: Programs compile without errors or warnings
+YES 4 pts: Programs compile without errors or warnings
 
-MAYBE 2 pts: Executes fully & consistently without crashing (exception/freeze)
+YES 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-MAYBE 2 pt: Complies with style guidelines (missing items 1 pt each):
+YES 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      NO Classes & class members all have Javadoc header comments
+      YES Classes & class members all have Javadoc header comments
 
       YES Clear and consistent indentation of bracketed sections
 
@@ -54,7 +54,7 @@ MAYBE 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       YES Methods & variables all have clear and accurate names
 
-      MAYBE Methods avoid confusing side effects
+      YES Methods avoid confusing side effects
 
 YES 1 pt: All required files included with submission (including completed `rubric.md` file)
 
